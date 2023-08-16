@@ -34,7 +34,7 @@ const LoginPage = () => {
         navigate("/DashBoard");
       }, 3000);
     } catch (error) {
-      toast.error("Ops! Algo deu errado")
+      toast.error("Ops! Algo deu errado");
       console.log(error);
     }
   };
